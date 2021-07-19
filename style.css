@@ -1,0 +1,233 @@
+/*FAIR-PLAY*/
+a.btn {display: block; vertical-align: top; height: 36px; line-height: 36px; letter-spacing: 1.4px; padding: 0 32px; font-size: 15px; font-weight: 700; color: #fff; text-transform: uppercase; text-decoration: none; text-align: center;}
+a.btn.orange {background: #fe9e08;}
+a.btn.orange:hover {background: #faa84f;}
+.start {width: 100%;margin-top: 20px;padding-bottom: 20px;text-align: center;overflow: hidden;background-color: rgba(255,255,255,.04); border-radius: 4px;}
+.start .title {height: 51px; line-height: 51px; letter-spacing: 1.4px; font-weight: 700;}
+.start .hash {display: inline-block; vertical-align: top;}
+.start .hash a {font-size: 12px; float: left;}
+.start .hash .text {background: #1d1f21; height: 36px; line-height: 36px; padding: 0 20px; font-size: 12px; float: left;}
+
+/* == Box Modal ==*/
+
+.box-modal {background-color: rgba(48, 54, 63, 0.96)!important;width: 630px;line-height: 26px;text-align: center;overflow: hidden;position: relative;z-index: 99999;}
+.box-modal p {margin: 0 0 20px; padding: 0 30px;}
+.box-modal b {color: #e79236;}
+
+.submit {margin-top: 30px; text-align: center;}
+.submit a {display: inline-block;}
+
+.box-modal#fair{width: 800px; text-align: left;}
+
+.box-modal#enter {width: 800px; text-align: left;}
+
+.box-modal table td {padding: 0;}
+.box-modal .table {padding-bottom: 0;}
+.box-modal th:last-child,
+.box-modal td:last-child {text-align: center;}
+
+.box-modal .title {padding: 40px 0; font-size: 28px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; text-align: center; overflow: hidden;}
+
+.box-modal a.box-modal_close {background: url('../images/cross.svg') no-repeat 50% 50%; background-size: 16px 16px; width: 30px; height: 30px; position: absolute; top: 15px; right: 15px; opacity: .2; transition: 0.4s;}
+.box-modal a.box-modal_close:hover {transform: rotate(180deg); opacity: 1;}
+
+.box-modal .info {background: rgba(0, 0, 0, 0.1); line-height: 20px; margin-top: 30px; padding: 0 30px; font-size: 12px; text-align: left; overflow: hidden;}
+.box-modal .info .block {padding: 14px 0 14px 64px;}
+.box-modal .info .block.red {background: url('../images/warning.svg') no-repeat left; background-size: 44px 44px; border-bottom: 1px solid rgba(255, 255, 255, 0.07);}
+.box-modal .info .block.green {background: url('../images/info.svg') no-repeat left; background-size: 44px 44px;}
+
+.box-modal .form {background: rgba(0, 0, 0, 0.1); margin-top: 30px; padding: 20px 30px; text-align: center; overflow: hidden;}
+.box-modal .form .top {margin-bottom: 20px; font-weight: 400; text-transform: uppercase;}
+.box-modal .form input[type='text'] {margin-bottom: 10px;}
+
+.box-modal .inputs {background: rgba(0, 0, 0, 0.1); line-height: 20px; padding: 20px 30px; font-size: 12px; text-align: center;}
+.box-modal .inputs input[type='text'] {border: 1px solid #3E4249; float: left;float: left;width: 70%;height: 35px;background: #282D34;outline: 0;padding-left: 15px;color: #7e8289;}
+
+.box-modal .table {padding: 0 0 30px;text-align: center;}
+.box-modal .table .top {padding: 20px 0; font-weight: 400; text-transform: uppercase; text-align: center;}
+.box-modal table {width: 100%; font-size: 12px;}
+.box-modal tr:last-child td {border: none;}
+.box-modal th {background: #363e48; height: 36px; line-height: 36px; font-size: 14px;}
+.box-modal td {border-bottom: 1px solid rgba(255, 255, 255, 0.07); padding: 8px 0;}
+.box-modal td.pic {width: 75px;}
+.box-modal span {display: inline-block; padding: 0 6px;}
+.box-modal span.won {background: #5a9a44; border-radius: 4px;}
+.box-modal span.lose {background: #bb4343; border-radius: 4px;}
+.box-modal table img {width: 100%; vertical-align: middle;}
+
+
+select {display: block; background: #363e48; border: none; box-sizing: border-box; width: 100%; height: 36px; margin: 0; padding: 0 20px; font: 13px/36px 'Roboto'; font-weight: 300; color: #fff; cursor: pointer; transition: all .2s;}
+/* == Box Modal ==*/
+.fair-play {
+    max-width: 684px;
+    min-height: 60px;
+    margin: 0 auto 27px;
+    position: relative;
+    right: 7px;
+    text-transform: uppercase;
+    font: 300 11px/1.4 'Roboto';
+    letter-spacing: 0.5px;
+}
+.fair-play__left {
+    width: 131px;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    z-index: 1;
+    color: #ffae2f;
+    font-weight: 500;
+}
+.fair-play__left span {
+    padding: 49px 0 0 0;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.fair-play__left span:before {
+    content: "";
+    width: 26px;
+    height: 30px;
+    margin: 0 0 0 -13px;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    background: url(../images/sprite-2.png) no-repeat 4px 3px;
+}
+.fair-play__right-wrapper {
+    margin: 0 0 0 131px;
+    position: relative;
+    border-top: 1px solid #ffae2f;
+    border-bottom: 1px solid #ffae2f;
+}
+.fair-play__right-wrapper:before,
+.fair-play__right-wrapper:after,
+.fair-play__right:before,
+.fair-play__right:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+}
+.fair-play__right-wrapper:before {
+    top: -4px;
+    left: -1px;
+}
+.fair-play__right-wrapper:after {
+    top: -4px;
+    right: -1px;
+}
+.fair-play__right:before {
+    bottom: -2px;
+    left: -1px;
+}
+.fair-play__right:after {
+    bottom: -2px;
+    right: -1px;
+}
+.fair-play__right {
+    padding: 11px 0 10px;
+}
+.fair-play__list {
+    width: 100%;
+    display: table;
+}
+.fair-play__item {
+    width: 100%;
+    display: table-row;
+}
+.fair-play__label {
+    width: 117px;
+    padding: 3px 0 3px 10px;
+    display: table-cell;
+    vertical-align: top;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: right;
+}
+.fair-play__text {
+    padding: 3px 10px 3px 21px;
+    display: table-cell;
+    vertical-align: top;
+    color: #ffffff;
+}
+.fair-play__text span {
+    color: #ffffff;
+}
+a {
+    color: #fe9e08;
+    text-decoration: underline;
+    transition: all .2s;
+}
+.fair_input {
+    display: block;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    width: 100%;
+    height: 36px;
+    margin: 0;
+    padding: 0 20px;
+    font: 13px 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    transition: all .2s;
+	margin-top: 20px;
+}
+
+.fair_button:hover {
+    background: #e79236;
+}
+
+.fair_button {
+    display: block;
+    background: #e79236;
+    border: none;
+    box-sizing: border-box;
+    height: 36px;
+    margin: 0;
+    padding: 0 20px;
+    font: 15px/36px 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .2s;
+	margin-top: 20px;
+}
+.arcticmodal-overlay,
+.arcticmodal-container {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1000;
+}
+.arcticmodal-container {
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-collapse: collapse;
+}
+*:first-child + html .arcticmodal-container {
+	height: 100%;
+}
+.arcticmodal-container_i {
+	height: 100%;
+	margin: 0 auto;
+}
+.arcticmodal-container_i2 {
+	padding: 24px;
+	margin: 0;
+	border: 0;
+	vertical-align: middle;
+}
+.arcticmodal-error {
+	padding: 20px;
+	border-radius: 10px;
+	background: #000;
+	color: #fff;
+}
+/*FAIR-PLAY*/
